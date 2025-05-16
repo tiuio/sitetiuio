@@ -1,17 +1,19 @@
-body {
-    background-color: rgb(48, 18, 218);
-}
+ *{
+   margin: 0;
+   padding: 0;
+ } 
+ 
 .cabecalho {
   background-color:rgb(85, 59, 231);
   color: burlywood;
   display:flex ;
   justify-content:space-around ;
-  padding: 24px 0; 
-  font-size:50px ;
+  padding: 8px 0; 
+  font-size:15px ;
 }
 .cabecalhoListaItem{
     display: inline-block;
     margin: 0 16px;
-    padding: 24px 0; 
+    padding: 4px 0; 
 
 }
