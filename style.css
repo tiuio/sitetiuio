@@ -8,12 +8,36 @@
   color: burlywood;
   display:flex ;
   justify-content:space-around ;
-  padding: 8px 0; 
-  font-size:15px ;
+  padding: 6px 0; 
+  font-size:30px ;
 }
 .cabecalhoListaItem{
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 60px;
     padding: 4px 0; 
 
 }
+.sobreImagem{
+           width: 50%;
+}
+
+.sobre{
+        background-image: linear-gradient(#000000, #000000);
+        color: rgb(92, 68, 23);
+        display: flex;
+        justify-content: center;
+       align-items: center;
+       padding: 50px 80px;
+}
+
+.sobreConteudo{
+        width: 200%;
+}
+
+.sobreTitulo{
+         padding: 50px 45px;
+}
+
+
+
+
