@@ -24,7 +24,39 @@
 .sobre{
         background-image: linear-gradient(#000000, #000000);
         color: rgb(92, 68, 23);
-        display: flex;
+        display: flex;/*Novo CSS*/
+.membroImagem{
+width:120px;
+}
+
+.membroIcone{
+width: 24px;
+}
+
+.membroDiv{
+text-align: center;
+}
+
+.membrosTitulo{
+text-align:center;
+padding: 500px 0;
+}
+
+.membrosTodos{
+display: grid;
+/*Transforma o display em quadrados*/
+grid-template-columns: 10% 20% 20% 20% 20%;
+/*Quanto cada coluna ocupa na página, em sequência*/
+}
+
+.membroDiv{
+text-align:center;
+padding-bottom: 34px;
+}
+
+.membros{
+background-color: blue;
+}
         justify-content: center;
        align-items: center;
        padding: 50px 80px;
@@ -37,7 +69,39 @@
 .sobreTitulo{
          padding: 50px 45px;
 }
+/*Novo CSS*/
+.membroImagem{
+width:120px;
+}
 
+.membroIcone{
+width: 24px;
+}
+
+.membroDiv{
+text-align: center;
+}
+
+.membrosTitulo{
+text-align:center;
+padding: 50px 0;
+}
+
+.membrosTodos{
+display: grid;
+/*Transforma o display em quadrados*/
+grid-template-columns: 10% 20% 20% 20% 20%;
+/*Quanto cada coluna ocupa na página, em sequência*/
+}
+
+.membroDiv{
+text-align:center;
+padding-bottom: 150px;
+}
+
+.membros{
+background-color: rgb(127, 127, 155);
+}
 
 
 
