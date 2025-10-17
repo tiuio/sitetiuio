@@ -1,0 +1,104 @@
+ *{
+   margin: 0;
+   padding: 0;
+ } 
+ 
+.cabecalho {
+  background-color:rgb(85, 59, 231);
+  color: burlywood;
+  display:flex ;
+  justify-content:space-around ;
+  padding: 6px 0; 
+  font-size:30px ;
+}
+.cabecalhoListaItem{
+    display: inline-block;
+    margin: 0 60px;
+    padding: 4px 0; 
+
+}
+.sobreImagem{
+           width: 50%;
+}
+
+.sobre{
+        background-image: linear-gradient(#000000, #000000);
+        color: rgb(92, 68, 23);
+        display: flex;/*Novo CSS*/
+.membroImagem{
+width:120px;
+}
+
+.membroIcone{
+width: 24px;
+}
+
+.membroDiv{
+text-align: center;
+}
+
+.membrosTitulo{
+text-align:center;
+padding: 500px 0;
+}
+
+.membrosTodos{
+display: grid;
+/*Transforma o display em quadrados*/
+grid-template-columns: 10% 20% 20% 20% 20%;
+/*Quanto cada coluna ocupa na página, em sequência*/
+}
+
+.membroDiv{
+text-align:center;
+padding-bottom: 34px;
+}
+
+.membros{
+background-color: blue;
+}
+        justify-content: center;
+       align-items: center;
+       padding: 50px 80px;
+}
+
+.sobreConteudo{
+        width: 200%;
+}
+
+.sobreTitulo{
+         padding: 50px 45px;
+}
+/*Novo CSS*/
+.membroImagem{
+width:120px;
+}
+
+.membroIcone{
+width: 24px;
+}
+
+.membroDiv{
+text-align: center;
+}
+
+.membrosTitulo{
+text-align:center;
+padding: 50px 0;
+}
+
+.membrosTodos{
+display: grid;
+/*Transforma o display em quadrados*/
+grid-template-columns: 10% 20% 20% 20% 20%;
+/*Quanto cada coluna ocupa na página, em sequência*/
+}
+
+.membroDiv{
+text-align:center;
+padding-bottom: 150px;
+}
+
+.membros{
+background-color: rgb(127, 127, 155);
+}
