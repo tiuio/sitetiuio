@@ -1,104 +1,87 @@
- *{
-   margin: 0;
-   padding: 0;
- } 
- 
-.cabecalho {
-  background-color:rgb(85, 59, 231);
-  color: burlywood;
-  display:flex ;
-  justify-content:space-around ;
-  padding: 6px 0; 
-  font-size:30px ;
-}
-.cabecalhoListaItem{
-    display: inline-block;
-    margin: 0 60px;
-    padding: 4px 0; 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-}
-.sobreImagem{
-           width: 50%;
+:root {
+    --cor-destaque: #55b139;
+    --cor-gradiente-preto: linear-gradient(113deg, #000 0%, #1e531a 44.96%, #000000 100%);
 }
 
-.sobre{
-        background-image: linear-gradient(#000000, #000000);
-        color: rgb(92, 68, 23);
-        display: flex;/*Novo CSS*/
-.membroImagem{
-width:120px;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
 }
 
-.membroIcone{
-width: 24px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 21px 18px 21px;
+    background: var(--cor-gradiente-preto);
+    height: 100vh;
+    flex-direction: column;
 }
 
-.membroDiv{
-text-align: center;
+
+.container {
+    display: flex;
+    width: 65rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    overflow: hidden;
 }
 
-.membrosTitulo{
-text-align:center;
-padding: 500px 0;
+h1 {
+    color: var(--cor-destaque);
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
-.membrosTodos{
-display: grid;
-/*Transforma o display em quadrados*/
-grid-template-columns: 10% 20% 20% 20% 20%;
-/*Quanto cada coluna ocupa na página, em sequência*/
+#entrada-de-texto {
+    display: flex;
+    height: 12rem;
+    padding: 1.4rem 2.5rem 2.5rem 2.5rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+    border-radius: 0.625rem;
+    background: #FFF;
+    font-size: 2rem;
 }
 
-.membroDiv{
-text-align:center;
-padding-bottom: 34px;
+#entrada-de-texto::placeholder {
+    color: #828282;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.membros{
-background-color: blue;
-}
-        justify-content: center;
-       align-items: center;
-       padding: 50px 80px;
-}
-
-.sobreConteudo{
-        width: 200%;
-}
-
-.sobreTitulo{
-         padding: 50px 45px;
-}
-/*Novo CSS*/
-.membroImagem{
-width:120px;
+#botao-palavrachave {
+    display: flex;
+    padding: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 0.5rem;
+    border: none;
+    background: var(--cor-destaque);
+    color: #18270f;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.membroIcone{
-width: 24px;
-}
-
-.membroDiv{
-text-align: center;
-}
-
-.membrosTitulo{
-text-align:center;
-padding: 50px 0;
-}
-
-.membrosTodos{
-display: grid;
-/*Transforma o display em quadrados*/
-grid-template-columns: 10% 20% 20% 20% 20%;
-/*Quanto cada coluna ocupa na página, em sequência*/
-}
-
-.membroDiv{
-text-align:center;
-padding-bottom: 150px;
-}
-
-.membros{
-background-color: rgb(127, 127, 155);
+#resultado-palavrachave {
+    display: flex;
+    border-radius: 0.625rem;
+    align-self: stretch;
+    color: var(--cor-destaque);
+    font-size: 2.5rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+    max-width: 100%;
+    max-height: 50vh;
+    overflow: auto;
 }
